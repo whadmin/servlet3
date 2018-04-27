@@ -15,6 +15,8 @@
         <module>serlvet3-fragment1</module>
         <module>serlvet3-fragment2</module>
         <module>serlvet3-asyncSupported</module>
+		<module>serlvet3-initializer1</module>
+		<module>serlvet3-initializer2</module>
     </modules>
 
     <packaging>pom</packaging>
