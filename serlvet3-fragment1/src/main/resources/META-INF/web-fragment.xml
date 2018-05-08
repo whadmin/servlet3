@@ -17,19 +17,21 @@
 	<filter>
 		<filter-name>filterByFragment2</filter-name>
 		<filter-class>com.servlet3.demo.filter.FilterByFragment2</filter-class>
+		<async-supported>true</async-supported>
 	</filter>
 	<filter-mapping>
 		<filter-name>filterByFragment2</filter-name>
-		<url-pattern>/*</url-pattern>
+		<url-pattern>/serlvetByFragment1</url-pattern>
 	</filter-mapping>
 
 	<filter>
 		<filter-name>filterByFragment1</filter-name>
 		<filter-class>com.servlet3.demo.filter.FilterByFragment1</filter-class>
+		<async-supported>true</async-supported>
 	</filter>
 	<filter-mapping>
 		<filter-name>filterByFragment1</filter-name>
-		<url-pattern>/*</url-pattern>
+		<url-pattern>/serlvetByFragment1</url-pattern>
 	</filter-mapping>
 	
 	<listener>

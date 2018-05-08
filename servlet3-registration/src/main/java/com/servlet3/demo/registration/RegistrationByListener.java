@@ -11,11 +11,11 @@ public class RegistrationByListener implements ServletContextListener {
         sr.addMapping("/ServletByRegistration");
 
 
-        FilterRegistration fr1 = sc.addFilter("filterByRegistration","com.servlet3.demo.filter.FilterByRegistration");
-         fr1.addMappingForUrlPatterns(EnumSet.of(DispatcherType.REQUEST), true, "/*");
+        FilterRegistration fr1 = sc.addFilter("filterByRegistration","com.servlet3.demo.filter.FilterByRegistration1");
+         fr1.addMappingForUrlPatterns(EnumSet.of(DispatcherType.REQUEST), true, "/ServletByRegistration");
         
         FilterRegistration fr2 = sc.addFilter("filterByRegistration2","com.servlet3.demo.filter.FilterByRegistration2");
-         fr2.addMappingForUrlPatterns(EnumSet.of(DispatcherType.REQUEST), true, "/*");
+         fr2.addMappingForUrlPatterns(EnumSet.of(DispatcherType.REQUEST), true, "/ServletByRegistration");
         
         //sc.addListener("com.servlet3.demo.Listener.ListenerByRegistration");
     }

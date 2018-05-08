@@ -21,18 +21,18 @@
     </filter>
 
     <filter>
-        <filter-name>filterbyxml</filter-name>
-        <filter-class>com.servlet3.demo.filter.FilterByXml</filter-class>
+        <filter-name>filterbyxml1</filter-name>
+        <filter-class>com.servlet3.demo.filter.FilterByXml1</filter-class>
     </filter>
 
     <filter-mapping>
         <filter-name>filterbyxml2</filter-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>/servletbyxml</url-pattern>
     </filter-mapping>
 
     <filter-mapping>
-        <filter-name>filterbyxml</filter-name>
-        <url-pattern>/*</url-pattern>
+        <filter-name>filterbyxml1</filter-name>
+        <url-pattern>/servletbyxml</url-pattern>
     </filter-mapping>
 
     <listener>

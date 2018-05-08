@@ -3,7 +3,7 @@ package com.servlet3.demo.filter;
 import javax.servlet.*;
 import java.io.IOException;
 
-public class FilterByXml implements Filter{
+public class FilterByXml1 implements Filter{
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         System.out.println("初始化过滤器FilterByXml");
